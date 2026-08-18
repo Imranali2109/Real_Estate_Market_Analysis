@@ -1,0 +1,21 @@
+# Editor configurations
+.vscode/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Raw datasets (prevents large files from bloating your repository)
+data/raw/*.csv
+
+# Processed data files generated during analysis
+notebooks/*.csv
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
